@@ -18,6 +18,7 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
 
 .circular-chart {
@@ -54,3 +55,121 @@ body {
 .linear-gradient-black{
   mask-image: linear-gradient(black, transparent);
 }
+
+
+/* Sidebar.css */
+.sidebar {
+  background-color: #262626;
+  color: white;
+  width: 20%;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #1C1C1C;
+  padding: 7px 10px;
+}
+
+.keyword {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #1C1C1C;
+  padding: 7px 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.keyword input {
+  flex: 1;
+  padding: 8px;
+  width: 30%;
+  border: none;
+  margin-right: 8px;
+  background-color: transparent;
+  font: inherit;
+  color: inherit;
+}
+
+.search input {
+  flex: 1;
+  padding: 8px;
+  width: 30%;
+  border: none;
+  border-bottom: 2px solid #ffffff;
+  margin-right: 8px;
+  background-color: transparent;
+  font: inherit;
+  color: inherit;
+}
+
+input:focus {
+  outline: none;
+}
+
+
+.search button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.genres {
+  position: relative;
+}
+
+.dropdown-toggle {
+  background-color: #333;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  color: white;
+  cursor: pointer;
+}
+
+.dropdown {
+  background-color: #2c2c2c;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #444;
+  border-radius: 4px;
+  z-index: 100;
+}
+
+.dropdown::-webkit-scrollbar {
+  width: 15px;
+}
+
+.dropdown::-webkit-scrollbar-track {
+  background: transparent;
+  width: 15px;
+}
+
+.dropdown::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 8px;
+  border: 6px solid #2c2c2c;
+}
+
+.dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #444;
+}
+
+.content-movies {
+  width: 80%;
+}
+
+

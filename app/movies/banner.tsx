@@ -1,7 +1,7 @@
 import Image from "next/image"
 const Banner = () => {
     return (
-        <div className="mx-auto relative">
+        <div className="mx-auto relative shadow flex-1">
             <div >
                 <img src={"/kungfubg.png"} alt="Banner Image" width={1920} height={500} className="linear-gradient-black"/>
             </div>
