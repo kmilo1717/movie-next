@@ -1,5 +1,11 @@
 import Image from "next/image";
-const Header = () => {
+import { Dispatch, SetStateAction } from 'react';
+interface SignupProps {
+    setShowSignup: Dispatch<SetStateAction<boolean>>;
+    showSignup: boolean
+}
+
+const Header: React.FC<SignupProps> = ({setShowSignup, showSignup}) => {
     return (
         <div className="flex bg-black justify-between items-center px-7 py-5">
             <div className="flex gap-4">
@@ -7,8 +13,10 @@ const Header = () => {
                 <a href="#popular" className="text-white px-4">Popular</a>
                 <a href="" className="text-white px-4">Favorites</a>
             </div>
-            <div className="flex">
-                <Image src="/login.svg" alt="Vercel Logo" width={30} height={24} priority/>
+            <div className="flex cursor-pointer">
+                <div onClick={() => setShowSignup(showSignup? false : true)}>
+                    <Image src="/login.svg" alt="Vercel Logo" width={30} height={24} priority/>
+                </div>
             </div>
         </div>
     )

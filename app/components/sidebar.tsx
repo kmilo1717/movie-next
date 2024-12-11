@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { IoSearchOutline } from "react-icons/io5";
+import { Dispatch, SetStateAction } from 'react';
 
 
 const genres = [
@@ -21,11 +22,12 @@ const genres = [
   'Mystery',
 ];
 
-const Sidebar = () => {
-  const [search, setSearch] = useState('');
+
+const Sidebar = ({search, setSearch}: any) => {
+  const [genresSearch, setGenresSearch] = useState('');
 
   const filteredGenres = genres.filter((genre) =>
-    genre.toLowerCase().includes(search.toLowerCase())
+    genre.toLowerCase().includes(genresSearch.toLowerCase())
   );
 
   return (
@@ -34,6 +36,8 @@ const Sidebar = () => {
       <div className="keyword border-b-2 border-gray-600">
         <input
           type="text"
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
           placeholder='Keywords'
         />
         <button><IoSearchOutline size={30} /></button>
@@ -42,8 +46,8 @@ const Sidebar = () => {
       <div className="search">
         <input
           type="text"
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
+          value={genresSearch}
+          onChange={(e) => setGenresSearch(e.target.value)}
         />
         <button><MdOutlineKeyboardArrowDown size={30} /></button>
       </div>

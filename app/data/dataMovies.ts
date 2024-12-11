@@ -18,8 +18,8 @@ const Popular : MovieData[] = [
 
 const NowPaying : MovieData[] = [
     {"id":1,"title":"Lord of War","imageUrl":"https://s3-alpha-sig.figma.com/img/7814/e2c2/6946e615e5a19bd2dc0292d08e37bab8?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HuG8pLKlE~LhgBhUPijCuP8F8zGko5-H01PAnEcs7rsXsP~Lh-GvCdZSLp-Lk-nB4cMqj2Mw9T5MQJifWgtGzD0aV2hdm72VcQju8mQngz585u4kYs1hDOkXC3nEfQrFZ6Xvp0Q-h2zZYAbRYgGctDhdIJIumNfF8d7JqsPFnKN1pAT1RrQ8sl2Ngfc-JzFOCV4f2benofdlt1DCS0AGt9d8bzBR28H~e8laaYBtRbbQpBqgbJc43uwO-KpR4mOub~i6lPpDJoabShIsuVJFBhEVDUDS4o7H6B03lsRZ0xIo5NsxM99M54V9CQty~Am6ONssKLBsrCXHzqbcQsiWDA__","date":"March 10, 2024","rating":85,"isFavorite":true},
-    {"id":2,"title":"House of Wax","imageUrl":"https://s3-alpha-sig.figma.com/img/5ed1/867d/6417cd091dc1ef925c07eaf1e125c6e5?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IvNNXrdJC6UkLzDWfzh5yP4~tzVXZe7tZiSFFbnpm-mk8fKC1ji0gIeeRubjQp8DRcJWbQ6Q75zyhIa27VTogNarwKUbFsUcg-Zak51j7TsVnwqZTCGkSJkdkgf45KkuR1mWXlBnVUAq06ATwmTChw-YgpjpQc5aw2hqtRoqQIqW2I9UxpK6uS4DIbL0ywdk5GhWBk3gXVIl6~beKZ3vArynlzlY7hNI4jHslJlTZLnrLqzfbx1Z3RKqmKlVOjsUMySv9fEWYSGOe4WTub~XWUDhigeccanxSR~h2VDjr9xpU1LmlNhmGBFQ-~BMbtRrtgVWVRvqedLuGPBEPushng__","date":"March 10, 2024","rating":62,"isFavorite":true},
-    {"id":3,"title":"Crash","imageUrl":"https://s3-alpha-sig.figma.com/img/c1be/6488/85ac6c161c4aa6496bbc31c3684302fe?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EZvBJQDP0ROyaVXjirnDqvRkrNnh3MJRxwq6riGBrREM3Ft1flaZsdlF3M73SUUoSMjU4y6bt~1euBn~G77~n777fzLtbcyezfFou-sRg3WF5ORvr-pLrRoiOsGNjo3hj~~5ozABPsNJE~IhPW~eHzM62TFCTPKNzMZvqYvFRSoSil~gqhA02507egv-2KBkrCphtJqF0i7LfD4TFnbaT80dkVKSOlhzpFcHSCSAhFwg8xXF04CEcwWxf8l6D~9t6iTKe8RwqFdF9mZvuz2CBBpNItNSD5e-SR-9mrBF0qUMsgW0PmvxjO6-5yfsTNgqcutBPH3ViSxlzVHLV-Xdaw__","date":"March 10, 2024","rating":79,"isFavorite":true},
+    {"id":2,"title":"House of Wax","imageUrl":"https://s3-alpha-sig.figma.com/img/5ed1/867d/6417cd091dc1ef925c07eaf1e125c6e5?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IvNNXrdJC6UkLzDWfzh5yP4~tzVXZe7tZiSFFbnpm-mk8fKC1ji0gIeeRubjQp8DRcJWbQ6Q75zyhIa27VTogNarwKUbFsUcg-Zak51j7TsVnwqZTCGkSJkdkgf45KkuR1mWXlBnVUAq06ATwmTChw-YgpjpQc5aw2hqtRoqQIqW2I9UxpK6uS4DIbL0ywdk5GhWBk3gXVIl6~beKZ3vArynlzlY7hNI4jHslJlTZLnrLqzfbx1Z3RKqmKlVOjsUMySv9fEWYSGOe4WTub~XWUDhigeccanxSR~h2VDjr9xpU1LmlNhmGBFQ-~BMbtRrtgVWVRvqedLuGPBEPushng__","date":"March 10, 2024","rating":45,"isFavorite":true},
+    {"id":3,"title":"Crash","imageUrl":"https://s3-alpha-sig.figma.com/img/c1be/6488/85ac6c161c4aa6496bbc31c3684302fe?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EZvBJQDP0ROyaVXjirnDqvRkrNnh3MJRxwq6riGBrREM3Ft1flaZsdlF3M73SUUoSMjU4y6bt~1euBn~G77~n777fzLtbcyezfFou-sRg3WF5ORvr-pLrRoiOsGNjo3hj~~5ozABPsNJE~IhPW~eHzM62TFCTPKNzMZvqYvFRSoSil~gqhA02507egv-2KBkrCphtJqF0i7LfD4TFnbaT80dkVKSOlhzpFcHSCSAhFwg8xXF04CEcwWxf8l6D~9t6iTKe8RwqFdF9mZvuz2CBBpNItNSD5e-SR-9mrBF0qUMsgW0PmvxjO6-5yfsTNgqcutBPH3ViSxlzVHLV-Xdaw__","date":"March 10, 2024","rating":40,"isFavorite":true},
     {"id":4,"title":"Munich","imageUrl":"https://s3-alpha-sig.figma.com/img/9b3e/4e9c/3fb790f0ec3e2f9cfaa5178ec23ef75a?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bmL4gSoaXx8mmCgqP1YsVp8ZAMCULKEWQl9kJbIDECW~xMmEezdUu6BKTCv4bstx9UpZ8dYDXTCaZ66PkQcnPoyLgCMiBIwK3e~rEWh31yS1BvlKJOBu4jte40aYEkI7FTSEG5jmUE7kTc017YkdHjp5yQBlIOhT8c1a2y8fPnYfzTqH0MRwSr0X6ARH~Mo7mf~0kIuazZxzddnfxn~5g1H~bRWiqTm2LjunbwRW8HvcCRi9KxejP9YA7PUlziF2nX-pcrbM5fPINy-fleX5z7jvoAyymmBOW3A~h3dWBiMCZXQdb-w4SvECoGG~TUvfz3w6Uh8uP0cTbUPh3KGL4A__","date":"March 10, 2024","rating":81,"isFavorite":true},
     {"id":5,"title":"IF","imageUrl":"https://s3-alpha-sig.figma.com/img/6ed8/44c1/f3edf55edb232191bb2726e3981db075?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GiqFQ9OrymQXAOTs4mwr0ovzrBNZ7N8AcFdeah--MlUAWSsX7CHBLmg6xtEEFfoz-x2EMlif8HswaExE7klC6pY0jnVOvhmE7pcpkndAfWKhhpDDVc70bJD8RzRNPAVzQ1a7rQDfy8AQ2RmPIaDCosJfYLIfemxgEUzOdth3MMOMfECYRcfpe9yRBh5kn4qrth~n1aUrcg4xqnYfraNAledM1~PbaCCaSiG210KYwOxwJnXJkTd0cpF7RvyHNCbaE3aTe8dm6yNaSU1aAYYZ07TFwmoNVTD0J8poH~GbL-FOXT~K0RKp5bV0CcAcwVA~WE1kvQN0DJa0M5zypG4qqg__","date":"March 10, 2024","rating":68,"isFavorite":true},
     {"id":6,"title":"Abandoned","imageUrl":"https://s3-alpha-sig.figma.com/img/778d/a231/7290be6df03be73af41ab8926cbfced3?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pE3Y~g4t4hlf5qukcq~zrPbtyOJtq4ASQcWYqeuvn~GvsH~aYRQCgGcUidxTNSnN0beDebYnsu3NC97ig98kXjn~oKOijLZjy6OouanAnDY1etTJdCwJcWXLmQXGZaa8DHen2K75dADcBz638m6Uh~vpUASWfltpzH0hmbkj35obCRqvF7Qo9A1es-m3weO1~BGkOtMSg~N7Ly-J2Ok~K5xjBTCDl8A1kisbUz1UYkuc4zeXy1wF4lXCkVykGpWmKxQkTTxhmWU5GeKErGfjeHQiyWBoBi55cbAS-tGff69LykYHFL76y1gUCJuU2ysp9HoCz5Q2gSb78zyEdt0C~w__","date":"March 10, 2024","rating":50,"isFavorite":true}
@@ -46,9 +46,32 @@ const TopRated : MovieData[] = [
 
 ]
 
+const tags =  [
+    { name: "Aviation" },
+    { name: "Fighter Jets" },
+    { name: "Military" },
+    { name: "Action" },
+    { name: "Sequel" },
+    { name: "Friendship" },
+    { name: "Legacy" },
+    { name: "Mentorship" },
+    { name: "Aerial Combat" },
+    { name: "Naval Aviation" }
+]
+
+const recomendations = [
+    {name:"Top gun", url:"https://s3-alpha-sig.figma.com/img/48d8/863b/33865ce32205c1a5cf167580c404e67c?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=U9xgHWR05hsZJd2r45~On7xBP9GHTuZDP4lEf9AonJWOEbTVl0zIFG-67rDzMr2VkajA9wIl8gDhU0xYCb0txbOe05YWMacwHA4YL8nE9xwVeIMmqSLvW0nr~22fM4WM-7bnYOpLc1~Ug58~JySk8x7pVjNDpujMByYYFmyg57H~3E5Mr6uZ3p9KsQ66RwD7~khzWT7mbFrlcFUTKFLMT5PNJlV77TpJklrUjRfQ~MmT3dXU5gY~-nj3yBzmxPVsvpvj5VAM8q2nPtnZoc3LuheA1GIPAnXs9Y~yb0UPg6FVDDrcST25xry5upXziTxsbyc04XZ6Ij8U2RsW1XEg9Q__"},
+    {name:"Days of Thunder", url:"https://s3-alpha-sig.figma.com/img/27b2/52cf/24de405676407b267813a62294424ce9?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=omYVKJusdE8HjuknCi5NFkkMuLG~d0pkpuyGL~aEaxbu87-iHdVe92VTJC88k~px7sQlV8H8~fmyN5WEnyPCheWvNgjah105aJSUTG6onSVeGPSb8yzL8r~oyTEmWGuqdTLyYMU5vRnwwkMPS2vh6t8AuEtxmU4mGqdMyPmYTDGyPWM6JDbYM3PoZg~gNO3yUjez6xXYsT9JZvC7fUSo-GYzi-yy71Yf6-yLWgLYdDysUvlbdmCd5R~tG8UMXXw0p70EL0YKD5gfI-UUD4RaxfPoeTxVioIxGD57XhT9YnkAKUzdDRo-EgBE1qiY81PePRP1VfOZy15X~ARUlOpKjw__"},
+    {name:"Behind Enemy Lines", url:"https://s3-alpha-sig.figma.com/img/326f/2c9f/2aa1c2acf44b78aa13ed4d4329576c09?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QVnjbQ~1n3n11WBfCOIHJwNer7ixS9lhASblvt5HoqwUl4J37rUky-KKSdQnCjHDraT~fyoC~jBxGt0t~Db7sMA5DJf47aUBlOJ2jH8M7ukUWOszEH1dQNcqqMdHr5ig75NzDChYb9eZiwGYGIPb-EwkizoZx1qUoXsbaFYgijbl2EO6N161FGJFhCBzUyDtOeGEvcNOriHubhYeZh~fIlKX9nQdGBmooIcvcblZlJsuQDBPz8bqe4fVYSurzfeWdgZ4ISOktdsHHFDva68eNaVUYT95nyP9CsSD64XY5fk-8YwZOxG0WX6qvCz0vWlo0dEkTLHMVINKu0~BCYQ5Vg__"},
+    {name:"Black Hawk Down", url:"https://s3-alpha-sig.figma.com/img/1ee9/dbb7/7a08bf478ee6421207b55cac78d6ec88?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Fp3geLqUPKNXQbN9OjbvBbKkl6HGXZbA-nk-4nx09u6aOJV9wYbqJtHYGHckrSXkDRiGnf3VqpJLmti1yKbiWbg7VLfi-FsBjScav-S9G4P-AQMmAn2vroSDCFZ6a-YT03znA~aQ4p9dOp53c~3shEgUQfEAdtQY5GB2oQ3Tf-ESgY~r2tm97d0unyD-WGH7xDV3P40e46FuTf6K~rhKbxfP8WiUVeLk9SSjZMYLubirZOcthdniJLyufznzrY0h345lD895k60B~NaGKpQCKCrzrhV1N8VHWzGgh7rGNZtdnLJFOhIWqrP0hCLWaHxZrybylNRf9CEa1e-ac7fCbA__"},
+    {name:"Enemy at the Gates", url:"https://s3-alpha-sig.figma.com/img/7932/7c5f/c1a8f099f76bd0f1d8594807efb29088?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bEKG8rpuR8KrC76w9RbKVKdJlP8wp678X~I7cFkTizMrC2fk8F2alqXrWRQEaZU2Mz4RtKKX53OkVZQOEshg5OarvaZmdKr7pxP2pweNN~YTppLl0CmEqAhNASi6W4hscIHVlZIw4d1gsQEsBLCBhuvmJynpURXgSkQxzHeR1dIDf-VxSr~JzU4tdw-Nyw4i5xIK38PPGrjHsUGZvBg-IuicNfV8NK-MYReQv5xDDIS5Cn~JUwTYZHD58D5IvUifJeN73-uEZkKU8rLz0V8~SOGZc39ye8aAN3tf9gKWl87weo8GrFcb3Sj9inN~n0nDc~y8qfWisEGh1LFXN72AcA__"},
+    {name:"The Aviator", url:"https://s3-alpha-sig.figma.com/img/4081/c1a7/39eff556a7995fb8267717901495cfd8?Expires=1734912000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ofh2sFR1Uxw6~VBDLUFMAgKl1L3mlUmWnkZZPRKUY2~ilofA0D81THKJfyOxRmUIZVHONiQJRFXm7KqPwOLh3QDysMij2Q6bxCYW3Ln2a-ch54tP63ToGlT~1uj-xNCmN89rXj3TD6lBbxUoh6y75d48JojEMCnue8GUe1xuEgoeC8oqG8JfwBfr6zo8H0CodHGGjYk9ExW0Q7WTqMnTUFhmMFsZlWW~vOUi0w4uJS6-Z74di7bemQvJ~Rd7j4rQk1PsNpP4y5SWDWt6I2c6UViU2bXUeTd9k3p-9kWxA3TauyC9Z4R~8Y-pJF9QyFQvJyG-i82bowcmBK19qKYUjQ__" },
+]
 export {
     Popular, 
     NowPaying,
     Upcoming,
-    TopRated
+    TopRated,
+    tags,
+    recomendations
 };
